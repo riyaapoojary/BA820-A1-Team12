@@ -1,7 +1,7 @@
 # BA820 – Team 12 Project: Hollywood Age Gaps (M1–M4)
 
 ## Project Overview
-We analyze the **Hollywood Age Gaps** dataset to understand whether on-screen romantic pairings show a clear and stable **age-gap structure** (e.g., small-gap vs large-gap patterns), and how these patterns vary across pairing types and over time.
+We analyze the **Hollywood Age Gaps** dataset to understand whether on-screen romantic pairings show a clear and stable **age-gap structure** (e.g., small-gap vs large-gap patterns) and how these patterns vary across pairing types and over time.
 
 This repository contains our work across **Milestones 1–4**.
 
@@ -23,9 +23,10 @@ This repository contains our work across **Milestones 1–4**.
 ### Milestone 4 (Individual Refinement Submissions)
 Milestone 4 is an **individual refinement milestone**, so each member’s work is in a separate notebook:
 
-- **Riya (M4):** `M4_Riya_Refinement.ipynb`
-- **Daksh (M4):** `<add file name here>`
+- **Riya (M4):** `M4-Riya-Refinement.ipynb`
+- **Daksh (M4):** `BA820(M2)_(M4)_Team12_Daksh.ipynb`
 - **Sanskruti (M4):** `<add file name here>`
+- - **Michael (M4):** `<add file name here>`
 
 Each M4 notebook is designed to run top-to-bottom and includes outputs/plots for grading.
 
