@@ -25,8 +25,8 @@ Milestone 4 is an **individual refinement milestone**, so each member’s work i
 
 - **Riya (M4):** `M4 Riya Refinement.ipynb`
 - **Daksh (M4):** `M4 Daksh Refinement.ipynb`
-- **Sanskruti (M4):** `<add file name here>`
-- **Michael (M4):** `<add file name here>`
+- **Sanskruti (M4):** ` `
+- **Michael (M4):** ` `
 
 Each M4 notebook is designed to run top-to-bottom and includes outputs/plots for grading.
 
