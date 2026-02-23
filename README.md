@@ -1,81 +1,49 @@
-# BA820 – Hollywood Age Gaps Project (M1–M4)
+# BA820 – Team 12 Project: Hollywood Age Gaps (M1–M4)
 
-## 📌 Project Overview
+## Project Overview
+We analyze the **Hollywood Age Gaps** dataset to understand whether on-screen romantic pairings show a clear and stable **age-gap structure** (e.g., small-gap vs large-gap patterns), and how these patterns vary across pairing types and over time.
 
-This project analyzes the **Hollywood Age Gaps dataset** to examine whether on-screen romantic pairings follow a consistent age-gap pattern.
-
-Across milestones, the analysis evolved from exploratory analysis (M1) to clustering and validation (M2–M4).
-
-**Main question:**
-> Does the data show a stable and interpretable age-gap structure (small-gap vs large-gap group), and does this pattern remain consistent across methods and decades?
+This repository contains our work across **Milestones 1–4**.
 
 ---
 
-## 📂 Repository Structure
+## Repo Contents (by Milestone)
 
-### Milestone 1 (M1)
-- Initial EDA
-- Data quality checks
-- Feature engineering (pairing_type, decade, age_difference)
-- Early clustering exploration
+### Milestone 1 (Team / Proposal + Early EDA)
+- Proposal + initial EDA
+- Data quality checks + early feature engineering
+- Early clustering direction
 
-### Milestone 2 (M2)
-- Individual EDA notebooks (team members)
-- PCA exploration
-- KMeans clustering experiments
+### Milestone 2 (Individual EDA Notebooks)
+- Individual exploratory notebooks from team members (different feature sets + EDA angles)
 
-### Milestone 3 (M3)
-- Integrated team analysis
-- Comparison of feature sets
-- Cluster stability checks
+### Milestone 3 (Integrated Analysis)
+- Team integration notebook combining insights and comparing feature sets / clustering results
 
-### Milestone 4 (M4) – Refinement & Validation
-- Narrowed focus to dominant pairings (98% of data)
-- Simplified clustering to `age_difference` only
-- k=2 vs k=3 sensitivity testing
-- Hierarchical clustering validation
-- Adjusted Rand Index (ARI) comparison
-- Decade-level descriptive analysis
+### Milestone 4 (Individual Refinement Submissions)
+Milestone 4 is an **individual refinement milestone**, so each member’s work is in a separate notebook:
 
-**Primary notebook for grading:**
-- `M4_Riya_Refinement.ipynb`
+- **Riya (M4):** `M4_Riya_Refinement.ipynb`
+- **Daksh (M4):** `<add file name here>`
+- **Sanskruti (M4):** `<add file name here>`
+
+Each M4 notebook is designed to run top-to-bottom and includes outputs/plots for grading.
 
 ---
 
-## 🔎 Key Methods Used
-
-- Data cleaning & preprocessing
-- Feature engineering (`age_difference`, `pairing_type`, `decade`)
-- KMeans clustering
-- Hierarchical (agglomerative) clustering
-- Silhouette score (cluster separation quality)
-- Adjusted Rand Index (method agreement check)
-- Decade-level descriptive comparisons
+## Dataset
+- `age_gaps.csv` (primary dataset)
 
 ---
 
-## 📊 Main Findings (M4)
-
-- The data consistently forms **two clusters**:
-  - Small age-gap group (~6 years)
-  - Large age-gap group (~22 years)
-- The two-cluster structure is stable across methods.
-- High ARI (~0.893) shows strong agreement between KMeans and hierarchical clustering.
-- Cluster proportions shift across decades, but the overall two-group structure remains meaningful.
-
----
-
-## ▶️ How to Run (Google Colab)
-
-1. Open `M4_Riya_Refinement.ipynb` in Colab (or directly from GitHub).
-2. Ensure `age_gaps.csv` is available in the session.
+## How to Run (Google Colab)
+1. Open the notebook you want (ex: `M4_Riya_Refinement.ipynb`) in Colab (you can open directly from GitHub).
+2. Make sure `age_gaps.csv` is available in the session (upload if needed).
 3. Run: **Runtime → Run all**
 
 ---
 
-## 💻 How to Run (Local Jupyter)
-
+## How to Run (Local Jupyter)
 Install dependencies:
-
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
