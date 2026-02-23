@@ -23,8 +23,8 @@ This repository contains our work across **Milestones 1–4**.
 ### Milestone 4 (Individual Refinement Submissions)
 Milestone 4 is an **individual refinement milestone**, so each member’s work is in a separate notebook:
 
-- **Riya (M4):** `M4-Riya-Refinement.ipynb`
-- **Daksh (M4):** `BA820(M2)_(M4)_Team12_Daksh.ipynb`
+- **Riya (M4):** `M4 Riya Refinement.ipynb`
+- **Daksh (M4):** `M4 Daksh Refinement.ipynb`
 - **Sanskruti (M4):** `<add file name here>`
 - **Michael (M4):** `<add file name here>`
 
@@ -38,7 +38,7 @@ Each M4 notebook is designed to run top-to-bottom and includes outputs/plots for
 ---
 
 ## How to Run (Google Colab)
-1. Open the notebook you want (ex: `M4-Riya-Refinement.ipynb`) in Colab (you can open directly from GitHub).
+1. Open the notebook you want (ex: `M4 Riya Refinement.ipynb`) in Colab (you can open directly from GitHub).
 2. Make sure `age_gaps.csv` is available in the session (upload if needed).
 3. Run: **Runtime → Run all**
 
