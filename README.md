@@ -38,7 +38,7 @@ Each M4 notebook is designed to run top-to-bottom and includes outputs/plots for
 ---
 
 ## How to Run (Google Colab)
-1. Open the notebook you want (ex: `M4_Riya_Refinement.ipynb`) in Colab (you can open directly from GitHub).
+1. Open the notebook you want (ex: `M4-Riya-Refinement.ipynb`) in Colab (you can open directly from GitHub).
 2. Make sure `age_gaps.csv` is available in the session (upload if needed).
 3. Run: **Runtime → Run all**
 
